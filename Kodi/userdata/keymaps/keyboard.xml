@@ -1,0 +1,38 @@
+<keymap>
+<!-- red = ctrl+alt+1 = 389169-->
+<!-- green = ctrl+alt+2 = 389170-->
+<!-- yellow = ctrl+alt+3 = 389171-->
+<!-- blue = ctrl+alt+4 = 389172-->
+<!-- video = netflix = ctrl+alt+n = 389198-->
+<!-- teletext = quit = ctrl+alt+q = 389201-->
+  <global>
+	<keyboard>
+      <key id="389201">XBMC.ActivateWindow(startwindow)</key>
+	  <key id="38198">XBMC.RunAddon(script.StartNetflix)</key>
+	</keyboard>
+  </global>
+  <Videos>
+   <keyboard>
+	<key id="389170">ToggleWatched</key>
+   </keyboard>
+  </Videos>
+  <FullscreenVideo>
+    <keyboard>
+	  <pageup>up</pageup>
+	  <pagedown>down</pagedown>
+      <key id="389171">NextSubtitle</key>
+      <key id="389172">XBMC.ActivateWindow(subtitlesearch)</key>
+	</keyboard>
+  </FullscreenVideo>
+  <tvguide>
+	<keyboard>
+	  <pageup>up</pageup>
+	  <pagedown>down</pagedown>
+	</keyboard>
+  </tvguide>
+  <tvrecordings>
+    <keyboard>
+	  <key id="389172">Delete</key>
+    </keyboard>
+  </tvrecordings>
+</keymap>
